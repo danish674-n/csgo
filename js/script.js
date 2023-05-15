@@ -15,7 +15,7 @@ if (localStorage.getItem("imgData") === null) {
 }
 
 var currentCase = "case1";
-var acceptMoneyPerClick = 0.1;
+var acceptMoneyPerClick = 100000;
 
 /*=========================Inventory============================*/
 //In inventory: weap skins
@@ -22391,12 +22391,12 @@ var cases = {
 				weap8: {
 					name: "StatTrak™ Five-SeveN | Hyper Beast FT",
 					price: 60.00,
-					img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposLOzLhRlxfbGTj5X09q_goWYkuHxPYTZj3tU-sd0i_rVyoHwjF2hpiwwMiukcZjGegU8M1_Qr1i5ye_sh5_otM7OzHFrvCEm43jZnxLm100ZaLBqgfybVxzAULwEhsV8"
+					img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposLOzLhRlxfbGTj5X09q_goWYkuHxPYTZj3tU-sd0i_rVyoHwjF2hpiwwMiukcZjGegU8M1_Qr1i5ye_sh5_otM7OzHFrvCEm43jZnxLm100ZaLBqgfybVxzAULwEhsV8",
 				},
 				weap9: {
 					name: "StatTrak™ Five-SeveN | Hyper Beast WW",
 					price: 49.98,
-					img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposLOzLhRlxfbGTj5X09q_goWYkuHxPYTZj3tU-sd0i_rVyoHwjF2hpiwwMiukcZjGegU8M1_Qr1i5ye_sh5_otM7OzHFrvCEm43jZnxLm100ZaLBqgfybVxzAULwEhsV8"
+					img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposLOzLhRlxfbGTj5X09q_goWYkuHxPYTZj3tU-sd0i_rVyoHwjF2hpiwwMiukcZjGegU8M1_Qr1i5ye_sh5_otM7OzHFrvCEm43jZnxLm100ZaLBqgfybVxzAULwEhsV8",
 				},
 				weap10: {
 					name: "StatTrak™ Five-SeveN | Hyper Beast BS",
