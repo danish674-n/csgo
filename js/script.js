@@ -13,7 +13,7 @@ var useravatar = localStorage.getItem('imgData');
 if (localStorage.getItem("imgData") === null) {
 	localStorage.setItem("imgData" , "https://i.imgur.com/ICK2lr1.jpg")
 }
-
+var gogy = false
 var currentCase = "case1";
 var acceptMoneyPerClick = 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000;
 
@@ -23032,7 +23032,19 @@ $("#acceptButton").click(function() {
 			$('#accepted')[0].play();
 		}
 });
+const keyAction = {
+  w: { keydown: 
+      money += acceptMoneyPerClick,  keyup: gogy = false },
+  s: { keydown: randSkin(),  keyup:gogy = false }
 
+};
+
+const keyHandler = (ev) => {
+  if (ev.repeat) return;                             
+  if (!(ev.key in keyAction) || !(ev.type in keyAction[ev.key])) return;
+  keyAction[ev.key][ev.type]();
+};
+	
 $(".about").click(function() {
 	$(".main").toggleClass("small");
 	if (menusound)
